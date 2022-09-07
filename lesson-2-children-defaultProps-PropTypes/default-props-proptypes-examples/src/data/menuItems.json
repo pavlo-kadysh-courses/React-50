@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "link": "/",
+        "text": "Home",
+        "redirect": false
+    },
+    {
+        "id": "2",
+        "link": "/books",
+        "text": "Books",
+        "redirect": false
+    },
+    {
+        "id": "3",
+        "link": "/products",
+        "text": "Products",
+        "redirect": false
+    },
+    {
+        "id": "4",
+        "link": "/contacts",
+        "text": "Contacts",
+        "redirect": false
+    }
+]

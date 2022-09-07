@@ -1,0 +1,18 @@
+@import './../../../shared/styled/mixins';
+
+.header-menu {
+    @include flex();
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    list-style: none;
+}
+
+.header-menu-link {
+    display: inline-block;
+    text-decoration: none;
+    color: red;
+    background-color: #fff;
+    padding: 10px 15px;
+    border: 1px solid red;
+}

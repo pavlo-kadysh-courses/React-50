@@ -1,0 +1,12 @@
+.footer {
+    padding: 15px 0;
+    background: lightblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer svg {
+    margin: 0 20px;
+}

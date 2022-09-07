@@ -1,0 +1,10 @@
+@mixin flex($content: flex-start, $align: baseline) {
+    display: flex;
+    flex-wrap: wrap;
+    @if ($content != flex-start) {
+        justify-content: $content;
+    }
+    @if ($align != baseline) {
+        align-items: $content;
+    }
+}
