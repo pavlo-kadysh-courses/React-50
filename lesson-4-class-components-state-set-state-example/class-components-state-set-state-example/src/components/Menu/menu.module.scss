@@ -1,0 +1,26 @@
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: 1px solid red;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    color: red;
+}
+
+.link.active {
+    background-color: red;
+    color: #fff;            
+}
+
+.link:hover {
+    background-color: red;
+    color: #fff;
+}
