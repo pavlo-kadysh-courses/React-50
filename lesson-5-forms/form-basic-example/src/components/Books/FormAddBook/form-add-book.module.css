@@ -1,0 +1,21 @@
+.formGroup {
+    margin-bottom: 15px;
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.field {
+    padding: 10px 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #000;
+    cursor: pointer;
+    padding: 10px 15px;
+    border: 1px solid ;
+    border-radius: 5px;
+    color: #fff;
+}
