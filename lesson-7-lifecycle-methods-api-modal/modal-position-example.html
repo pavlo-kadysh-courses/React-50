@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            height: 100px;
+            position: relative;
+            z-index: 5;
+        }
+
+        .overlay {
+            position: absolute;
+            width: 100%;
+            height: 100vh;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 999;
+        }
+
+        .modal {
+            background-color: #fff;
+            min-width: 300px;
+            padding: 20px;
+            position: relative;
+			color: black;
+        }
+
+        .close {
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+            font-size: 18px;
+        }
+        .main {
+            background-color: #fff;
+            height: 100vh;
+            z-index: 10;
+            position: relative;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="overlay">
+            <div class="modal">
+                <span class="close">X</span>
+               Modal content
+            </div>
+        </div>
+    </header>
+    <div class="main"></div>
+</body>
+
+</html>

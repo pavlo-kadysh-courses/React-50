@@ -1,0 +1,21 @@
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.item {
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 15px;
+    text-align: center;
+    height: 100px;
+}
