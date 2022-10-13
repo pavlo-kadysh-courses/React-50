@@ -1,0 +1,23 @@
+.posterImage {
+  max-width: 200px;
+}
+.thumbsList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0;
+}
+.thumbListItem {
+  margin: 10px;
+  max-width: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.thumbsContainer {
+  max-width: 1000px;
+  margin: 0 auto;
+}

@@ -1,0 +1,15 @@
+.ColorPicker {
+    border: 1px solid grey;
+    display: inline-block;
+}
+
+.ColorPicker__title {
+    text-align: left;
+}
+
+.ColorPicker__option {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    margin: 10px;
+}

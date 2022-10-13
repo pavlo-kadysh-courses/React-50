@@ -1,0 +1,28 @@
+.castContainer {
+  max-width: 1150px;
+  margin: 0 auto;
+}
+
+.profilePic {
+  width: 200px;
+  margin-right: 10px;
+  padding: 0px;
+}
+.castListItem {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px;
+}
+.classList {
+  display: flex;
+  flex-direction: column;
+}
+.actorName {
+  font-size: 20px;
+  font-weight: 700;
+}
+.title {
+  text-align: left;
+  margin-left: 50px;
+}
