@@ -1,0 +1,23 @@
+.comments {
+    text-align: left;
+}
+.comment {
+    margin-bottom: 10px;
+    h4 {
+        font-weight: bold;
+        color: #0054a6;
+        position: relative;
+        &:before {
+            content: "";
+            width: 15px;
+            height: 15px;
+            margin-right: 5px;
+            border-radius: 50%;
+            background: gray;
+            display: inline-block;
+        }
+        + p {
+            font-style: italic;
+        }
+    }
+}
