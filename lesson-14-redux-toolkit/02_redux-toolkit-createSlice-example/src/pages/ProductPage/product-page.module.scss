@@ -1,0 +1,21 @@
+.menu {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 15px;
+    color: green;
+    border: 1px solid green;
+    background-color: #fff;
+
+    &.active {
+        background-color: green;
+        color: #fff;
+    }
+}
+
+    
